@@ -6,9 +6,53 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: rgb(50, 71, 38);
+  color: lightgray;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.center {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.rounded{
+  border-radius: 5%;
+}
+
+.red{
+  background-color: rgb(212, 25, 25);
+}
+
+.pomodoro-component{
+  padding-bottom: 10px;
+  border-radius: 10%;
+  transition-property: background-color;
+  transition-duration: 3s;
+}
+
+#tomato-container{
+  position: relative;
+  text-align: center;
+}
+
+#counter{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  color: green;
+  width: 150px;
+  border: 2px solid green;
+}
+
+.left-align{
+  text-align: start;
+}
+
+.auto-margin{
+  margin: auto;
 }
